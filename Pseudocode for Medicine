@@ -1,0 +1,93 @@
+// Start to pharmacy
+
+// Pharmacy to Patient 1
+
+go forwards to middle of hallway
+turn left 90 degrees
+go forwards till the pharmacy
+turn right
+go forwards into the pharmacy
+wait 5 secs
+go revs to the middle of hallway
+turn right
+go forwards till patient 1 room
+turn left
+go forwards into the room
+wait 3 secs
+
+// Patient 1 to Pharmacy
+
+go revs into hallway
+turn left
+go forward till pharmacy
+turn right
+go forward into the pharmacy
+wait 5 secs
+
+// Pharmacy to Elevator
+
+go revs into middle of hallway
+turn right
+go forward till elevator
+turn left
+go forward into elevator
+wait five secs
+
+// Elevator to Patient 2
+
+go revs middle of hallway
+turn left
+go forward to patient 2 room
+turn left
+go into room
+wait 3 secs
+
+// Patient 2 to Elevator
+
+go revs into hallway
+turn left
+go forward till elevator
+turn left
+go into elevator
+wait 5 secs
+
+// Elevator to Pharmacy 
+
+go back into hallway
+turn left
+go forward till pharmacy
+turn right
+go into pharmacy
+wait 5 secs
+
+// Pharmacy to Elevator
+
+go back into hallway
+turn right
+go forward until elevator
+turn left
+go forward into the elevator
+wait 5 secs
+
+// Elevator to Patient 3
+
+go back into hallway
+turn left
+go forward until patient 3 room
+turn left
+go into room
+wait 3 secs
+
+// Patient 3 to Elevator
+
+go reverse into hallway
+turn left
+go forward until elevator
+turn left
+go forward into elevator
+wait 5 secs
+
+// Elevator to start
+
+go reverse
+
