@@ -1,0 +1,83 @@
+## Patient 1 (Start to Pharmacy to Patient 1 to Pharmacy)
+drivetrain.set_turn_velocity(30, PERCENT)
+# Start to Pharmacy
+drivetrain.drive_for(FORWARD, 750, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 1250, MM)
+drivetrain.turn_for(RIGHT, 100, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+
+#Pharmacy to Patient 1
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(RIGHT, 100, DEGREES)
+drivetrain.drive_for(FORWARD, 625, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(3, SECONDS)
+
+#Patient 1 to Pharmacy
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(LEFT, 110, DEGREES)
+drivetrain.drive_for(FORWARD, 625, MM)
+drivetrain.turn_for(RIGHT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+
+
+## Patient 2
+
+#Pharmacy to Elevator
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(RIGHT, 110, DEGREES)
+drivetrain.drive_for(FORWARD, 1250, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+
+# Elevator to Patient 2
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 1250, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(3, SECONDS)
+
+# Patient 2 to Elevator
+drivetrain.drive_for(REVERSE, 200, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 1250, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+
+#Elevator to Pharmacy
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 1250, MM)
+drivetrain.turn_for(RIGHT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+
+
+## Patient 3 (Pharmacy to Elevator to Patient 3 to Elevator to Pharmacy)
+
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(RIGHT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 1250, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 625, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(3, SECONDS)
+drivetrain.drive_for(REVERSE, 750, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 625, MM)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 750, MM)
+wait(5, SECONDS)
+drivetrain.drive_for(REVERSE, 1200, MM)
